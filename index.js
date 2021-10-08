@@ -21,7 +21,6 @@ for (let i = 0; i < first.length + 1; i++) {
     for (let x = 0; x < eText.length + 1; x++) {
         if (eText[x] == first[i]){
             eText.splice(x, 1);
-            console.log(eText);
         }
     }
 }
